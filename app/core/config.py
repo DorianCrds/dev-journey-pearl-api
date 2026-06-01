@@ -5,5 +5,7 @@ class Settings(BaseSettings):
     app_version: str = "0.1.0"
     api_v1_prefix: str = "/api/v1"
 
+    database_url: str = "sqlite:///./pearl.db"
+
 
 settings = Settings()
